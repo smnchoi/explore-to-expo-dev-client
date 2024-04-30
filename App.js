@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { useState, useEffect } from "react";
+import { isClip } from "react-native-app-clip";
 
 export default function App() {
   const [data, setData] = useState("");
@@ -20,6 +21,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <Text>{data}</Text>
+      <Text>isClip: {`${isClip()}`}</Text>
       <StatusBar style="auto" />
     </View>
   );
