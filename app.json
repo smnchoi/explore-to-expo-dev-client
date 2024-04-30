@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tomtimmy2.exploretoexpodevclient"
@@ -31,6 +29,7 @@
       "eas": {
         "projectId": "b16db106-261b-4aca-8293-b105c8fe9416"
       }
-    }
+    },
+    "plugins": [["react-native-app-clip", { "name": "My App Clip" }]]
   }
 }
